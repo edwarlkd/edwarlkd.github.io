@@ -1,0 +1,18 @@
+$(document).ready( function(){
+   
+   //click on button
+   //add them to the end of the <li>
+   
+   $("#button").click( function(){
+      var toAdd = $("input[name=checkListItem]").val(); 
+    //  $("h2").toggle('slow'); //fadeOut+In
+      
+      $('.list').append('<div class="item">' + toAdd + '</div>');
+   });
+   
+   $(document).on('click', '.item' , function(){
+        $(this).remove();   
+       
+   });
+    
+});
