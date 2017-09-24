@@ -1,4 +1,5 @@
 /***********************************************************/
+
 li  {
   font-size: 16px;    
   line-height: 2;
@@ -9,10 +10,10 @@ li  {
 body {
 /*  width: 600px; */
   margin: 0 auto;
-  background-color: #A9A9A9; /*orange FF9500*/
+  background-color: #A5ACAF; /*orange FF9500*/
   
   padding: 0 0px 470px 0px; /*top right bot left*/
-  border: 5px solid black;
+/*  border: 5px solid black;*/
 
 }
 
@@ -67,29 +68,6 @@ p {
 
 /*********************************/
 
-input[type=text] {
-    width: 500px;
-
-/*    padding: 12px 20px; */
-
-    position: relative;
- 
-    margin: 8px 0;
-    box-sizing: border-box;
-
-    background-color: #FFC72D;
-    color: #006BB6;
-}
-
-.border1{
-    border-color:#287EC7;
-    color: #006BB6;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Georgia, serif;
-
-    padding-left: 150px;
-}
 
 
 /* -------------------- Select Box Styles: stackoverflow.com Method */
@@ -105,7 +83,7 @@ select#soflow, select#soflow-color {
    background-position: 97% center;
    background-repeat: no-repeat;
    border: 0px solid #AAA;
-   color: #555;
+   color: #555s;
    font-size: inherit;
    margin: 10px;
    overflow: hidden;
@@ -116,29 +94,69 @@ select#soflow, select#soflow-color {
 }
 
 select#soflow-color {
-   color: #fff;
-   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FFC72D, #FFC72D 40%, #FFC72D);
-   background-color: #FFC72D;
+   color: #A5ACAF;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#101820, #101820 40%, #101820);
+   background-color: #101820; /*101820 Raiders black ; changes the colors for selection when 'option arrow' clicked */ 
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
    padding-left: 15px;
 }
 
+input[type=text] {
+    
+/*    padding: 12px 20px; */
+	id = "hm1";
+    box-sizing: border-box;
+
+    background-color: #ffffff ; /* white background  */
+    color: #101820; /* black    */
+}
+
 input[type=submit] {
     padding:5px 15px; 
-    background:#FFC72D; 
+    background:#101820; 
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
+	color: #A5ACAF;
+	font-size: 22px;
+	/*A5ACAF: silver*/
+
+	left:30%; 
+	position:absolute;
+	top: 100%;
 }
 
 input[type=reset] {
     padding:5px 15px; 
-    background:#FFC72D; 
+    background:#101820;   /* 101820 black*/
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
+	font-size: 22px;
+	color: #A5ACAF;
+	left:58%; position:absolute;
+	top: 100%;
+	/*A5ACAF: silver*/
+}
+
+li2{
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+	color:#ddd; 
+    display: inline-block;
+    padding-top: 6px;
+	
+	right: 10px;
+	position:relative;
+	float: right;
+
+	border-bottom: 2px solid white;
+	
 }
