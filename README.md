@@ -1,4 +1,6 @@
-# edwarlkd.github.io
+# edwarlkd.github.io or edwardandrewkim.tk
+
+
 
 Hi! This folder contains my files for my and brother's Online Resume.
 
