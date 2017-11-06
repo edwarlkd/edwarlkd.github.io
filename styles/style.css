@@ -33,17 +33,19 @@ body {
   float: left;
   background: url('../images/seoul_strip.jpg') no-repeat center center fixed;
   background-size: cover;
+  background-color: white;
 
 }
 
 .helloclass h1{
-  margin-top: 50px;
+  margin-top: 1%;
+  margin-bottom: auto;
   font-size: 60px;
-  padding-bottom: 10px;
 }
 
 .helloclass p1{
   font-size: 32px;
+  line-height: 75px;
 }
 
 #mainsection{
