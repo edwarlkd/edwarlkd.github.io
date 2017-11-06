@@ -34,7 +34,7 @@ body {
   background: url('../images/seoul_strip.jpg') no-repeat center center fixed;
   background-size: cover;
   background-color: white;
-
+  text-decoration: line-through;
 }
 
 .helloclass h1{
