@@ -5,7 +5,6 @@ li  {
   font-weight: bold;
 }
 
-
 li2{
     font-size: 16px;
     line-height: 2;
@@ -32,47 +31,14 @@ body {
   margin: auto;
 }
 
-
-p2{
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: 1px;
-  font-style: serif;
-
-}
-
-.text{
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-
-.container {
-
-    width: 60px;
-    height: 100px;
-    position: absolute;
-    margin: auto;
-    background-color: yellow;
-    padding-bottom: auto;
-    text-align: center;
-}
-/***********************************************************/
-
 .header{
   height: 45px;
   width: auto;
 	text-align: right;
 	padding-right: 30;
 	padding: 10 10 10 10;
-  background-color:#222;
+	background-color:#222;
 }
-
 .block_list {
     list-style-type: none;
     margin: 0;
@@ -89,21 +55,18 @@ p2{
 
 .block_list a {
 	color:#ddd;
-  display: inline-block;
-  padding: 6px;
+    display: inline-block;
+    padding: 6px;
 	margin-right:10;
 	text-decoration: none;
 }
 
-.block_list a:hover {
-	text-decoration: underline;
-}
-
 li.exp_list  {
-	font-size: 15px;
+	font-size: 13px;
 	color: #000;
-	line-height: 24px;
+	line-height: 18px;
 	letter-spacing: 1px;
+
 }
 
 div.exp_section  {
@@ -117,30 +80,16 @@ div.exp_section  {
 	line-height: 18px;
 }
 
-div.div_column{
-	padding-top: 70px; padding-right: 0px;
-	border: 3px solid black;
-	padding: 0em 0em 0em 1em;
-
+div.div_column {
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(255, 199, 044)), color-stop(0.8, rgb(255,255,255)));
 	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
 	border: 3px solid black;
 	padding: 1em 0em 0em 1em;
-
 }
 
-div.div_columnAndy{
-	padding-top: 70px; padding-right: 0px;
-	border: 3px solid black;
-	padding: 0em 0em 0em 1em;
-
+div.div_columnAndy {
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, rgb(85,37,130)), color-stop(0.8, rgb(255,255,255)));
 	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
 	border: 3px solid black;
 	padding: 1em 0em 0em 1em;
-
 }
-
-
-
-/*            */
