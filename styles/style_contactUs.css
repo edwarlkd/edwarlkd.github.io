@@ -23,8 +23,18 @@ li2{
 }
 
 body {
-/*  width: 600px; */
+  background: url('../images/seoul_strip.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: white;
   margin: auto;
+}
+
+.formsection{
+  background-color: white;
+  margin: auto;
+  min-width: 400px;
+  width: 450px;
+  min-height: 500px;
 }
 
 p {

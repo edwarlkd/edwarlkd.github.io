@@ -53,12 +53,11 @@ p2{
 
 
 .container {
-
+    left: 1.5%;
     width: 60px;
     height: 100px;
     position: absolute;
     margin: auto;
-    background-color: yellow;
     padding-bottom: auto;
     text-align: center;
 }
