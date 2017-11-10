@@ -30,11 +30,10 @@ body {
 }
 
 .formsection{
-  background-color: white;
+  background-color: #e5e5ff;
   margin: auto;
-  min-width: 400px;
   width: 450px;
-  min-height: 500px;
+  min-height: 490px;
 }
 
 p {
@@ -155,9 +154,10 @@ input[type=reset] {
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-	font-size: 22px;
-	color: #A5ACAF;
-	left:58%; position:absolute;
-	top: 100%;
-	/*A5ACAF: silver*/
+  	font-size: 22px;
+  	color: #A5ACAF;
+  	left:60%;
+    position:absolute;
+  	top: 100%;
+  	/*A5ACAF: silver*/
 }
