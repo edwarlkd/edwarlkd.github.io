@@ -1,8 +1,10 @@
-li  {
+
+li.liheader {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 2px;
   font-weight: bold;
+  color: red;
 }
 
 
@@ -11,14 +13,12 @@ li2{
     line-height: 2;
     letter-spacing: 2px;
     font-weight: bold;
-
     color:#ddd;
     display: inline-block;
     padding-top: 6px;
 	  float: right;
     text-decoration: underline;
     text-decoration-style: solid;
-
 }
 
 p {
@@ -32,13 +32,11 @@ body {
   margin: auto;
 }
 
-
 p2{
   font-size: 20px;
   line-height: 1;
   letter-spacing: 1px;
   font-style: serif;
-
 }
 
 .text{
@@ -103,6 +101,9 @@ li.exp_list  {
 	color: #000;
 	line-height: 24px;
 	letter-spacing: 1px;
+
+  font-size: 16px;
+  font-weight: bold;
 }
 
 div.exp_section  {
@@ -116,30 +117,123 @@ div.exp_section  {
 	line-height: 18px;
 }
 
-div.div_column{
-	padding-top: 70px; padding-right: 0px;
-	border: 3px solid black;
-	padding: 0em 0em 0em 1em;
+div.div_columnEd{
+  padding: 1em 1em 1em 1em;
+  margin: 0px;
 
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(255, 199, 044)), color-stop(0.8, rgb(255,255,255)));
 	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
 	border: 3px solid black;
-	padding: 1em 0em 0em 1em;
-
 }
 
 div.div_columnAndy{
-	padding-top: 70px; padding-right: 0px;
-	border: 3px solid black;
-	padding: 0em 0em 0em 1em;
+  padding: 1em 1em 1em 1em;
+  margin: 0px;
 
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, rgb(85,37,130)), color-stop(0.8, rgb(255,255,255)));
 	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
 	border: 3px solid black;
-	padding: 1em 0em 0em 1em;
 
 }
 
 
 
-/*            */
+
+/* ------------------------------------
+
+
+
+*/
+/*  royal blue: #006BB6  	Golden Yellow: #FFC72D*/
+/* Style the tab */
+div.tab {
+    margin-top: 5%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #FFC72D;
+
+
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ffd76c;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    text-decoration: underline;
+}
+
+.tablinks{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: none;
+    border: 2px solid #ccc;
+    padding: 0em 1em 1em 1em;
+    margin: 0px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(255, 199, 044)), color-stop(0.8, rgb(255,255,255)));
+  	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
+  	border: 3px solid black;
+}
+
+
+.tabcontent ol{
+  font-size: 15px;
+	color: #000;
+	line-height: 24px;
+	letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.tabcontent ul{
+  font-size: 15px;
+	color: #000;
+	line-height: 24px;
+	letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+
+.tabcontent li{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h3.h3intro{
+  font-size: 36px;
+}
+
+p3.p3intro{
+  font-size: 30px;
+}
+
+p1.p2intro{
+  font-size: 20px;
+}
