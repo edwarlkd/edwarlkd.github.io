@@ -1,4 +1,5 @@
-# edwarlkd.github.io or edwardandrewkim.tk
+# edwarlkd.github.io 
+# edwardandrewkim.tk
 
 
 
