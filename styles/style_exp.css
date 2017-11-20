@@ -71,7 +71,7 @@ body {
 }
 
 li.exp_list  {
-	font-size: 13px;
+	font-size: 15px;
 	color: #000;
 	line-height: 18px;
 	letter-spacing: 1px;
@@ -94,6 +94,8 @@ div.div_column {
 	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
 	border: 3px solid black;
 	padding: 1em 0em 0em 1em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
 }
 
 div.div_columnAndy {
@@ -101,4 +103,6 @@ div.div_columnAndy {
 	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
 	border: 3px solid black;
 	padding: 1em 0em 0em 1em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
 }

@@ -127,12 +127,18 @@ div.div_columnEd{
 }
 
 div.div_columnAndy{
-  padding: 1em 1em 1em 1em;
-  margin: 0px;
 
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, rgb(85,37,130)), color-stop(0.8, rgb(255,255,255)));
 	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
 	border: 3px solid black;
+  margin-top: 5%;
+  padding: 1em 1em 1em 1em;
+
+  line-height: 24px;
+	letter-spacing: 1px;
+  font-size: 16px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
 
 }
 
@@ -151,10 +157,9 @@ div.tab {
     padding: 0.5em 0.5em 0.5em 0.5em;
 
     overflow: hidden;
-    border: 1px solid #ccc;
     background-color: #FFC72D;
 
-
+  	border: 3px solid black;
 }
 
 /* Style the buttons inside the tab */
@@ -195,7 +200,9 @@ div.tab button.active {
     margin: 0px;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(255, 199, 044)), color-stop(0.8, rgb(255,255,255)));
   	background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
-  	border: 3px solid black;
+  	border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 
@@ -207,16 +214,18 @@ div.tab button.active {
   font-size: 16px;
   font-weight: bold;
   padding-left: 5%;
+
 }
 
 .tabcontent ul{
   font-size: 15px;
 	color: #000;
-	line-height: 24px;
+	line-height: 22px;
 	letter-spacing: 1px;
   font-size: 16px;
   font-weight: bold;
   padding-left: 5%;
+  padding-bottom: 10px;
 }
 
 
@@ -236,4 +245,5 @@ p3.p3intro{
 
 p1.p2intro{
   font-size: 20px;
+  line-height: 25px;
 }

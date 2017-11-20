@@ -31,8 +31,8 @@ body {
 .formsection{
   background-color: #e5e5ff;
   margin: auto;
-  width: 450px;
-  min-height: 490px;
+  width: 45%;
+  min-height: 500px;
 }
 
 p {
