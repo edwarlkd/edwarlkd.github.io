@@ -247,3 +247,8 @@ p1.p2intro{
   font-size: 20px;
   line-height: 25px;
 }
+
+p4.li_title{
+  font-style: italic;
+  font-weight: bold;
+}
